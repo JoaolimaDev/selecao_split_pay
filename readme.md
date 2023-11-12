@@ -19,6 +19,6 @@
 
 ### para realizar o teste .: composer test 
 
-### versão do PHP PHP 8.1.2
+### versão do PHP : PHP 8.1.2
 
 ### autor : João vitor de lima, data : 12/11/2023
