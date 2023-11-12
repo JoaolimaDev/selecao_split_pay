@@ -22,3 +22,4 @@
 ### versão do PHP : PHP 8.1.2
 
 ### autor : João vitor de lima, data : 12/11/2023
+<a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-de-lima-74441b1b1/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
