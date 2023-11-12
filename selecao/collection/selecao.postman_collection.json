@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "95c325a1-ea92-457d-b97c-7138327347fa",
+		"name": "selecao",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25057540",
+		"_collection_link": "https://www.postman.com/solar-escape-956115/workspace/new-team-workspace/collection/25057540-95c325a1-ea92-457d-b97c-7138327347fa?action=share&source=collection_link&creator=25057540"
+	},
+	"item": [
+		{
+			"name": "inserir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"dasdas\",\n    \"descricao\":\"asdsadsa\",\n    \"preco\" : 25.10,\n    \"quantidade\" : 20\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/insert/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"insert",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "exemplo paginar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ler por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get/id/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get",
+						"id",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":1,\n    \"nome\": \"outro tes tes\",\n    \"descricao\":\"teste\",\n    \"preco\" : 25.1,\n    \"quantidade\" : 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/update/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"update",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/delete/24",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

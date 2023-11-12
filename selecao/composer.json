@@ -1,0 +1,29 @@
+{
+    "name": "vendor/selecao",
+    "description": "Seleção",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Selecao\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JoaolimaDev",
+            "email": "ozymandiasphp@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+    
+}
+
+
